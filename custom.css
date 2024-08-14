@@ -1,0 +1,165 @@
+.main-date span:before{
+content:"";
+ display: inline-block;
+  background-image: url( "https://assets.playnccdn.com/static-nc-home/2.2.0/img/lineagew/guide/prev_pc.png" );
+  background-size: 40px 40px;
+  width: 40px;
+  height: 40px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+.main-date span:after {
+content:"";
+ display: inline-block;
+  background-image: url( "https://assets.playnccdn.com/static-nc-home/2.2.0/img/lineagew/guide/next_pc.png" );
+  background-size: 40px 40px;
+  width: 40px;
+  height: 40px;
+  vertical-align: middle;
+  margin-left: 5px;
+}
+
+.main-date span {
+    padding: 10px 20px;
+}
+
+
+
+
+@media only screen and (max-width: 1024px) {
+
+
+
+.swiper-wrapper {
+left:0;
+}
+}
+
+
+.main-text,.main-text p{
+
+}
+.main-text{
+position:absolute;
+top:0;
+width:100%;
+color:#fff;
+padding-top:95px;
+}
+.main-text p{
+font-family:DNFForgedBlade!important
+}
+.main-text1:after{
+content:"리니지 3.1";
+font-size:35px;
+text-shadow:#C38B61 1px 1px, #000 0px 0px, #000 1px 1px, #000 2px 2px, #000 3px 3px, #C38B61 4px 4px;
+display:none;
+}
+.main-text .main-text2:after{
+content: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg1cb7fokZN8oVZrm1KJsZVX9ie1beKoCuibJ6IhzRuRPQ7vJhFbcuEJ4I3VhR9hJHeviv0gJonLdnGQGymSjPh4FcPXtwmB1tvJ2sy404CrOTuW1c44omYL2CQfaLBqPDxnWlQSI1zKAUJcIqsHZ-FXK_oq4FbqcK3NXjR3DePcdBxkxO2MeFbgUc7Jiu4/s16000/%EC%BC%88%EB%A6%AC%EB%A1%9C%EA%B3%A04.png");
+font-size: 51px;
+text-shadow: #C38B61 1px 1px, #000 0px 0px, #000 1px 1px, #000 2px 2px, #000 3px 3px, #C38B61 4px 4px, #000 5px 5px;
+color: #FAECC5;
+filter: drop-shadow(3px 3px 3px #000);
+zoom:95%;
+}
+@keyframes neon-flicker{
+0%{
+text-shadow:0 0 10px rgba(102,37,.7),0 0 20px rgba(102,37,.7),0 0 30px rgba(102,37,.7)
+}
+100%{
+text-shadow:0 0 20px rgba(102,37,.7),0 0 30px rgba(102,37,.7),0 0 40px rgba(102,37,.7)
+}
+}
+.main-date span{
+display:none;
+background:#121212;
+font-size:30px;
+color:#fff;
+word-break:keep-all;
+word-wrap:break-word;
+border-radius:15px;
+opacity:.83;
+padding:10px 30px;
+font-family:DNFForgedBlade!important;
+border:1px solid #0873ce;
+}
+.main-date1 span:after {
+display: block;
+content: "";
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: linear-gradient(135deg, rgba(255, 241, 176, 0), rgba(255, 241, 176, 0) 30%, #ffffe5 50%, rgba(255, 241, 176, 0) 65%, rgba(255, 241, 176, 0));
+background-size: 400% 400%;
+background-position: 100% 70%;
+border-radius: 0;
+opacity: .4;
+animation: loopAni 4s ease Infinite;
+mix-blend-mode: overlay;
+}
+@keyframes loopAni {
+0% {
+background-position: 100% 70%
+}
+70% {
+background-position: 100% 70%
+}
+to {
+background-position: 0 20%
+}
+}
+.section-promotion{
+top:-45px;
+}
+.section-promotion .section-promotion__list{
+height:650px!important
+}
+@media screen and (max-width:1024px){
+.main-text{
+padding-top:0px !important;
+}
+.main-text1:after{
+font-size:20px;
+}
+.main-text, .main-text p {
+padding-left:20px !important;
+}
+.main-text .main-text2:after{
+font-size: 50px;
+position: absolute;
+zoom: 50%;
+left: 20px;
+top: -80px;
+}
+.main-text3 {
+padding-top:100px;
+}
+.main-text3 span {
+font-size:15px;
+}
+.main-date span{
+font-size:15px;
+}
+.section-promotion .section-promotion__list{
+height:230px!important
+}
+.section-promotion{
+top:0;
+padding-top:70px !important;
+}
+#showsidebar1 img,#showsidebar2 img ,#showsidebar3 img{
+height:100px!important
+}
+#showsidebar3{
+bottom:36%!important
+}
+#showsidebar2{
+bottom:22%!important
+}
+#showsidebar1{
+bottom:8%!important
+}
+}
